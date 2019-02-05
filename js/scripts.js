@@ -4,7 +4,14 @@ $(document).ready(function() {
   });
 
   $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+    $("#initially-showing").toggle();
+    $("#initially-hidden").toggle();
   });
+
+  $(".clickable2").click(function() {
+    $("#initially-showing2").toggle();
+    $("#initially-hidden1").toggle();
+  })
+
+
 });

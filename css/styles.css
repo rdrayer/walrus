@@ -3,7 +3,6 @@ img {
   height: 200px;
 }
 
-
 .clickable {
   cursor: pointer;
   color: #C984E3;
@@ -13,10 +12,23 @@ img {
   text-decoration: underline;
 }
 
-#walrus-showing {
+#initially-showing {
   display: none;
 }
 
 #fade {
   display: none;
+}
+
+#initially-showing2 {
+  display: none;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: #C984E3;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
 }
