@@ -1,0 +1,22 @@
+img {
+  width: 300px;
+  height: 200px;
+}
+
+
+.clickable {
+  cursor: pointer;
+  color: #C984E3;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+#walrus-showing {
+  display: none;
+}
+
+#fade {
+  display: none;
+}
